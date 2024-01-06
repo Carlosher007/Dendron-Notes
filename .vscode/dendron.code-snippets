@@ -1,0 +1,26 @@
+{
+  "todo": {
+    "prefix": "to",
+    "scope": "markdown,yaml",
+    "body": "- [ ] ",
+    "description": "render todo box"
+  },
+  "date": {
+    "prefix": "date",
+    "scope": "markdown,yaml",
+    "body": "$CURRENT_YEAR.$CURRENT_MONTH.$CURRENT_DATE",
+    "description": "today's date"
+  },
+  "time": {
+    "prefix": "time",
+    "scope": "markdown,yaml",
+    "body": "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
+    "description": "time"
+  },
+  "Code Block": {
+    "prefix": "code-",
+    "scope": "markdown",
+    "body": ["```$1", "${2:tu código aquí}", "```"],
+    "description": "Insert a code block"
+  }
+}
