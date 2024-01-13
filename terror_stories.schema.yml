@@ -1,0 +1,11 @@
+version: 1
+imports: []
+schemas:
+  - id: terror_stories
+    title: terror_stories
+    parent: root
+    children:
+      - pattern: "*"
+        children:
+        - pattern: "*"
+          template: terror_stories.temp

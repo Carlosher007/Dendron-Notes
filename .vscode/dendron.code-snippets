@@ -18,7 +18,7 @@
     "description": "time"
   },
   "Code Block": {
-    "prefix": "code-",
+    "prefix": "pcode",
     "scope": "markdown",
     "body": ["```$1", "${2:tu código aquí}", "```"],
     "description": "Insert a code block"

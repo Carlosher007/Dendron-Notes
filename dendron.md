@@ -2,7 +2,7 @@
 id: 7ydgru68f8a3m51acijpvm1
 title: Dendron
 desc: ''
-updated: 1704580313664
+updated: 1704584216528
 created: 1704569491898
 ---
 
@@ -17,3 +17,6 @@ created: 1704569491898
 
 ## Shortcut and functionalities
 - [[dendron.content.shortcuts]]
+
+## Link to google website
+[Google](https://www.google.com)
